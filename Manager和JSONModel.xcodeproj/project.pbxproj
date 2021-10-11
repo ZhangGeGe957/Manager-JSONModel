@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BD90456B32DA0A9A46378AD /* libPods-Manager和JSONModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FB329F32775C99EE6F1178F /* libPods-Manager和JSONModel.a */; };
+		832B244027142ED500901BC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 832B243F27142ED500901BC0 /* AppDelegate.m */; };
+		832B244327142ED500901BC0 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 832B244227142ED500901BC0 /* SceneDelegate.m */; };
+		832B244627142ED500901BC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 832B244527142ED500901BC0 /* ViewController.m */; };
+		832B244927142ED500901BC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 832B244727142ED500901BC0 /* Main.storyboard */; };
+		832B244B27142ED600901BC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 832B244A27142ED600901BC0 /* Assets.xcassets */; };
+		832B244E27142ED600901BC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 832B244C27142ED600901BC0 /* LaunchScreen.storyboard */; };
+		832B245127142ED600901BC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 832B245027142ED600901BC0 /* main.m */; };
+		832B245B27142ED600901BC0 /* Manager_JSONModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 832B245A27142ED600901BC0 /* Manager_JSONModelTests.m */; };
+		832B246627142ED600901BC0 /* Manager_JSONModelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 832B246527142ED600901BC0 /* Manager_JSONModelUITests.m */; };
+		832B2475271432FD00901BC0 /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 832B2474271432FD00901BC0 /* Manager.m */; };
+		832B24822714382900901BC0 /* GetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 832B24812714382900901BC0 /* GetModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		832B245727142ED600901BC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 832B243327142ED500901BC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 832B243A27142ED500901BC0;
+			remoteInfo = "Manager和JSONModel";
+		};
+		832B246227142ED600901BC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 832B243327142ED500901BC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 832B243A27142ED500901BC0;
+			remoteInfo = "Manager和JSONModel";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A1D740EB611DDA41269DA7A /* Pods-Manager和JSONModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Manager和JSONModel.debug.xcconfig"; path = "Target Support Files/Pods-Manager和JSONModel/Pods-Manager和JSONModel.debug.xcconfig"; sourceTree = "<group>"; };
+		832B243B27142ED500901BC0 /* Manager和JSONModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Manager和JSONModel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		832B243E27142ED500901BC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		832B243F27142ED500901BC0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		832B244127142ED500901BC0 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		832B244227142ED500901BC0 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		832B244427142ED500901BC0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		832B244527142ED500901BC0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		832B244827142ED500901BC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		832B244A27142ED600901BC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		832B244D27142ED600901BC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		832B244F27142ED600901BC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		832B245027142ED600901BC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		832B245627142ED600901BC0 /* Manager和JSONModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Manager和JSONModelTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		832B245A27142ED600901BC0 /* Manager_JSONModelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Manager_JSONModelTests.m; sourceTree = "<group>"; };
+		832B245C27142ED600901BC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		832B246127142ED600901BC0 /* Manager和JSONModelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Manager和JSONModelUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		832B246527142ED600901BC0 /* Manager_JSONModelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Manager_JSONModelUITests.m; sourceTree = "<group>"; };
+		832B246727142ED600901BC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		832B2473271432FD00901BC0 /* Manager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
+		832B2474271432FD00901BC0 /* Manager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Manager.m; sourceTree = "<group>"; };
+		832B24802714382900901BC0 /* GetModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GetModel.h; sourceTree = "<group>"; };
+		832B24812714382900901BC0 /* GetModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetModel.m; sourceTree = "<group>"; };
+		99C94784A22D73F832E4B6C4 /* Pods-Manager和JSONModel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Manager和JSONModel.release.xcconfig"; path = "Target Support Files/Pods-Manager和JSONModel/Pods-Manager和JSONModel.release.xcconfig"; sourceTree = "<group>"; };
+		9FB329F32775C99EE6F1178F /* libPods-Manager和JSONModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Manager和JSONModel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		832B243827142ED500901BC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD90456B32DA0A9A46378AD /* libPods-Manager和JSONModel.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		832B245327142ED600901BC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		832B245E27142ED600901BC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66EE60378BDCF2A349631FEF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A1D740EB611DDA41269DA7A /* Pods-Manager和JSONModel.debug.xcconfig */,
+				99C94784A22D73F832E4B6C4 /* Pods-Manager和JSONModel.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		832B243227142ED500901BC0 = {
+			isa = PBXGroup;
+			children = (
+				832B243D27142ED500901BC0 /* Manager和JSONModel */,
+				832B245927142ED600901BC0 /* Manager和JSONModelTests */,
+				832B246427142ED600901BC0 /* Manager和JSONModelUITests */,
+				832B243C27142ED500901BC0 /* Products */,
+				66EE60378BDCF2A349631FEF /* Pods */,
+				C88DE7D5930EBD47CCAE5DD3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		832B243C27142ED500901BC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				832B243B27142ED500901BC0 /* Manager和JSONModel.app */,
+				832B245627142ED600901BC0 /* Manager和JSONModelTests.xctest */,
+				832B246127142ED600901BC0 /* Manager和JSONModelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		832B243D27142ED500901BC0 /* Manager和JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				832B243E27142ED500901BC0 /* AppDelegate.h */,
+				832B243F27142ED500901BC0 /* AppDelegate.m */,
+				832B244127142ED500901BC0 /* SceneDelegate.h */,
+				832B244227142ED500901BC0 /* SceneDelegate.m */,
+				832B244427142ED500901BC0 /* ViewController.h */,
+				832B244527142ED500901BC0 /* ViewController.m */,
+				832B2473271432FD00901BC0 /* Manager.h */,
+				832B2474271432FD00901BC0 /* Manager.m */,
+				832B24802714382900901BC0 /* GetModel.h */,
+				832B24812714382900901BC0 /* GetModel.m */,
+				832B244727142ED500901BC0 /* Main.storyboard */,
+				832B244A27142ED600901BC0 /* Assets.xcassets */,
+				832B244C27142ED600901BC0 /* LaunchScreen.storyboard */,
+				832B244F27142ED600901BC0 /* Info.plist */,
+				832B245027142ED600901BC0 /* main.m */,
+			);
+			path = "Manager和JSONModel";
+			sourceTree = "<group>";
+		};
+		832B245927142ED600901BC0 /* Manager和JSONModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				832B245A27142ED600901BC0 /* Manager_JSONModelTests.m */,
+				832B245C27142ED600901BC0 /* Info.plist */,
+			);
+			path = "Manager和JSONModelTests";
+			sourceTree = "<group>";
+		};
+		832B246427142ED600901BC0 /* Manager和JSONModelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				832B246527142ED600901BC0 /* Manager_JSONModelUITests.m */,
+				832B246727142ED600901BC0 /* Info.plist */,
+			);
+			path = "Manager和JSONModelUITests";
+			sourceTree = "<group>";
+		};
+		C88DE7D5930EBD47CCAE5DD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FB329F32775C99EE6F1178F /* libPods-Manager和JSONModel.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		832B243A27142ED500901BC0 /* Manager和JSONModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 832B246A27142ED600901BC0 /* Build configuration list for PBXNativeTarget "Manager和JSONModel" */;
+			buildPhases = (
+				F8448F79B431F2D742BFA962 /* [CP] Check Pods Manifest.lock */,
+				832B243727142ED500901BC0 /* Sources */,
+				832B243827142ED500901BC0 /* Frameworks */,
+				832B243927142ED500901BC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Manager和JSONModel";
+			productName = "Manager和JSONModel";
+			productReference = 832B243B27142ED500901BC0 /* Manager和JSONModel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		832B245527142ED600901BC0 /* Manager和JSONModelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 832B246D27142ED600901BC0 /* Build configuration list for PBXNativeTarget "Manager和JSONModelTests" */;
+			buildPhases = (
+				832B245227142ED600901BC0 /* Sources */,
+				832B245327142ED600901BC0 /* Frameworks */,
+				832B245427142ED600901BC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				832B245827142ED600901BC0 /* PBXTargetDependency */,
+			);
+			name = "Manager和JSONModelTests";
+			productName = "Manager和JSONModelTests";
+			productReference = 832B245627142ED600901BC0 /* Manager和JSONModelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		832B246027142ED600901BC0 /* Manager和JSONModelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 832B247027142ED600901BC0 /* Build configuration list for PBXNativeTarget "Manager和JSONModelUITests" */;
+			buildPhases = (
+				832B245D27142ED600901BC0 /* Sources */,
+				832B245E27142ED600901BC0 /* Frameworks */,
+				832B245F27142ED600901BC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				832B246327142ED600901BC0 /* PBXTargetDependency */,
+			);
+			name = "Manager和JSONModelUITests";
+			productName = "Manager和JSONModelUITests";
+			productReference = 832B246127142ED600901BC0 /* Manager和JSONModelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		832B243327142ED500901BC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					832B243A27142ED500901BC0 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					832B245527142ED600901BC0 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 832B243A27142ED500901BC0;
+					};
+					832B246027142ED600901BC0 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 832B243A27142ED500901BC0;
+					};
+				};
+			};
+			buildConfigurationList = 832B243627142ED500901BC0 /* Build configuration list for PBXProject "Manager和JSONModel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 832B243227142ED500901BC0;
+			productRefGroup = 832B243C27142ED500901BC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				832B243A27142ED500901BC0 /* Manager和JSONModel */,
+				832B245527142ED600901BC0 /* Manager和JSONModelTests */,
+				832B246027142ED600901BC0 /* Manager和JSONModelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		832B243927142ED500901BC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				832B244E27142ED600901BC0 /* LaunchScreen.storyboard in Resources */,
+				832B244B27142ED600901BC0 /* Assets.xcassets in Resources */,
+				832B244927142ED500901BC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		832B245427142ED600901BC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		832B245F27142ED600901BC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F8448F79B431F2D742BFA962 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Manager和JSONModel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		832B243727142ED500901BC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				832B244627142ED500901BC0 /* ViewController.m in Sources */,
+				832B244027142ED500901BC0 /* AppDelegate.m in Sources */,
+				832B24822714382900901BC0 /* GetModel.m in Sources */,
+				832B245127142ED600901BC0 /* main.m in Sources */,
+				832B2475271432FD00901BC0 /* Manager.m in Sources */,
+				832B244327142ED500901BC0 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		832B245227142ED600901BC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				832B245B27142ED600901BC0 /* Manager_JSONModelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		832B245D27142ED600901BC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				832B246627142ED600901BC0 /* Manager_JSONModelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		832B245827142ED600901BC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 832B243A27142ED500901BC0 /* Manager和JSONModel */;
+			targetProxy = 832B245727142ED600901BC0 /* PBXContainerItemProxy */;
+		};
+		832B246327142ED600901BC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 832B243A27142ED500901BC0 /* Manager和JSONModel */;
+			targetProxy = 832B246227142ED600901BC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		832B244727142ED500901BC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				832B244827142ED500901BC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		832B244C27142ED600901BC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				832B244D27142ED600901BC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		832B246827142ED600901BC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		832B246927142ED600901BC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		832B246B27142ED600901BC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A1D740EB611DDA41269DA7A /* Pods-Manager和JSONModel.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZBXPJ2367M;
+				INFOPLIST_FILE = "Manager和JSONModel/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myprogram.Manager-JSONModel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		832B246C27142ED600901BC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99C94784A22D73F832E4B6C4 /* Pods-Manager和JSONModel.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZBXPJ2367M;
+				INFOPLIST_FILE = "Manager和JSONModel/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myprogram.Manager-JSONModel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		832B246E27142ED600901BC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZBXPJ2367M;
+				INFOPLIST_FILE = "Manager和JSONModelTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myprogram.Manager-JSONModelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Manager和JSONModel.app/Manager和JSONModel";
+			};
+			name = Debug;
+		};
+		832B246F27142ED600901BC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZBXPJ2367M;
+				INFOPLIST_FILE = "Manager和JSONModelTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myprogram.Manager-JSONModelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Manager和JSONModel.app/Manager和JSONModel";
+			};
+			name = Release;
+		};
+		832B247127142ED600901BC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZBXPJ2367M;
+				INFOPLIST_FILE = "Manager和JSONModelUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myprogram.Manager-JSONModelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Manager和JSONModel";
+			};
+			name = Debug;
+		};
+		832B247227142ED600901BC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZBXPJ2367M;
+				INFOPLIST_FILE = "Manager和JSONModelUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myprogram.Manager-JSONModelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Manager和JSONModel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		832B243627142ED500901BC0 /* Build configuration list for PBXProject "Manager和JSONModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				832B246827142ED600901BC0 /* Debug */,
+				832B246927142ED600901BC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		832B246A27142ED600901BC0 /* Build configuration list for PBXNativeTarget "Manager和JSONModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				832B246B27142ED600901BC0 /* Debug */,
+				832B246C27142ED600901BC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		832B246D27142ED600901BC0 /* Build configuration list for PBXNativeTarget "Manager和JSONModelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				832B246E27142ED600901BC0 /* Debug */,
+				832B246F27142ED600901BC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		832B247027142ED600901BC0 /* Build configuration list for PBXNativeTarget "Manager和JSONModelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				832B247127142ED600901BC0 /* Debug */,
+				832B247227142ED600901BC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 832B243327142ED500901BC0 /* Project object */;
+}
